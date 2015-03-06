@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Goat Thief</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="modal">
+		<div id="floater"></div>
+		<div id="content-wrapper">
+			<div id="content">
+				<div id="content-contents">
+					<h1>Nigerian Dwarf Goat Thief</h1>
+					<p>Help find Penelope, the <a id="article" href="http://www.portlandmercury.com/BlogtownPDX/archives/2015/03/04/bike-thief-caught-wait-he-steals-goats-too" target="_blank">stolen Nigerian dwarf goat</a>.</p> 
+					<p>Listen for the buzzing flies that are circling her when you're close, and then click when you hear the goat call.</p>
+					<p id="about">Made by <a href="http://patfarnach.com/" target="_blank">this guy</a> during the Blazers game last night. Hire me.</p>
+					<a id="play">Play</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="time-wrapper">Time: <span id="timer">0</span></div>
+
+	<div id="goat-wrapper">
+		<img id="goat" src="images/goat.png">
+	</div>
+
+	<audio id='buzz-sound' src='sound/buzz.mp3' loop />
+	<audio id='goat-sound' src='sound/goat.mp3' loop />
+	<audio id='success' src='sound/success.mp3' />
+
+	<script src="app.js"></script>
+</body>
+</html>
